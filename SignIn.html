@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estiloregistro.css">
     <title>Registro</title>
 </head>
 <body style="background-color: #F6F0D7;">
@@ -42,8 +42,11 @@
             </ul>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Cuenta</a>
-                </li>
+                    <a class="nav-link" href="#">Registrarse</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Iniciar Sesión</a>
+                    </li>
                 <li class="nav-item">
                     <!--<a class="nav-link" href="#">Carrito</a>-->
                     <a href="#"><img src="img/shopping-cart.png" width="30" height="30"></a>
@@ -52,31 +55,42 @@
           </div>
         </div>
     </nav>
-
-    <!--
-    <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div class="login-page">
+        <div class="form">
+        <h2> Formulario de Registro </h2>
+            
+            <form class="form-floating">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder=" " value=" ">
+                <label for="floatingInputValue">Nombre</label>
+            </form>
+            <form class="form-floating">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder=" " value=" ">
+                <label for="floatingInputValue">Apellido</label>
+            </form>
+            <form class="form-floating">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder=" " value=" ">
+                <label for="floatingInputValue">Correo Electronico</label>
+            </form>
+            <form class="form-floating">
+                <input type="password" class="form-control" id="floatingInputValue" placeholder="" value="">
+                <label for="floatingInputValue">Contraseña</label>
+            </form>
+            <form class="form-floating">
+                <input type="password" class="form-control" id="floatingInputValue" placeholder="" value="">
+                <label for="floatingInputValue">Confirmar contraseña</label>
+            </form>
+            <form class="form-floating">
+                <input type="text" class="form-control" id="floatingInputValue" placeholder="" value="">
+                <label for="floatingInputValue">Cedula de Ciudadania</label>
+            </form>
+            <button>Registrarse</button>
+            <p class="message">¿Ya tienes una cuenta? <a href="#">Inicia Sesión</a></p>
         </div>
         
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-    </form>
-        <a href="#">¿Olvidaste la contraseña?</a>
-        <br></br>
-        <button type="submit" class="btn btn-primary" >Iniciar Sesión</button>
-        <br></br>
-        <a>ó</a>
-        <br></br>
-        <a>¿No tienes cuenta? </a><a href="#">Registrarse</a>
-    -->
-    
-    
+      </div>
+      
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
